@@ -6,7 +6,7 @@
   to build the neural networks. But building them from scratch will help in understanding the working behind these libraries.
 </p>
 <p>
-  <img href="https://github.com/SurajChinna/Building-a-Neural-Network-from-Scratch-1/blob/master/assets/img1.png" />
+  <img src="https://github.com/SurajChinna/Building-a-Neural-Network-from-Scratch-1/blob/master/assets/img1.png" />
   simple neural network with one layer
 </p>
 <p>
