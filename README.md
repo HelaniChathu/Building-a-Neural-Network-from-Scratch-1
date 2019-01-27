@@ -6,9 +6,10 @@
   to build the neural networks. But building them from scratch will help in understanding the working behind these libraries.
 </p>
 <p>
-  <img src="https://github.com/SurajChinna/Building-a-Neural-Network-from-Scratch-1/blob/master/assets/img1.png" />
+  <img src="https://github.com/SurajChinna/Building-a-Neural-Network-from-Scratch-1/blob/master/assets/img1.png" /><br />
   simple neural network with one layer
 </p>
+<br />
 <p>
   We will build a simple neural network with just one layer. The dataset can be downloaded from 
   <a href=" http://www.ats.ucla.edu/stat/data/binary.csv">here</a>. It consists of three input features: GRE score, GPA, 
