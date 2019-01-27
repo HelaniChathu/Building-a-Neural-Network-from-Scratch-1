@@ -30,7 +30,7 @@
   we take each row from the training data and get the output after multiplying with weights and passing into activation function.
   The activation function we are using here is <a href="https://en.wikipedia.org/wiki/Sigmoid_function">Sigmoid function</a>. Next we
   calculate the error which is actual output minus obtained output <b><i>error = actual_output - obtained_output</i></b>. The formula for error
-  term is <b><i>error_term = error*sigmoid(obtained_output)</i></b>. Next we add the <b><i>error_term*input</i></b> to a variable <b><i>delta_of_w</i></b>. 
+  term is <b><i>error_term = error*sigmoid_prime(obtained_output)</i></b>. Next we add the <b><i>error_term*input</i></b> to a variable <b><i>delta_of_w</i></b>. 
   The <b><i>delta_of_w</i></b> is summed for all the input values and finally we update the acutal weights. The formula to update the 
   actual weights is <b><i>original_weights += learn_rate*delta_of_w/n_records</i></b>, where learn_rate is hyper-parameter that controls how 
   much we are adjusting the weights of our network. We repeat this process for many iterations to reach to the optimal value of
@@ -43,7 +43,7 @@
 </p>
 <p>
   Wondering how all the formulas came?? I have derivied them in the below image. In the below image in the final step while updating 
-  the weights, I have written it as <b><i>w_i = w_i + delta * x_i</i></b>. I have not added learning rate here. It can be done by
-  <b><i>w_i = w_i + learn_rate * delta * x_i</i></b><br />
+  the weights, I have written it as <b><i>w_i = w_i + delta * x_i</i></b>. I have not added learning rate and number of records here. It    can be done by <b><i>w_i = w_i + learn_rate * delta * x_i / n_records</i></b>. <b>n_records</b> is the total number of records, we
+    divide by it to take the average of <b>delta_w</b> of all the inputs.<br />
   <img src="https://github.com/SurajChinna/Building-a-Neural-Network-from-Scratch-1/blob/master/assets/img2.jpg" />
 </p>
