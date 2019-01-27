@@ -28,10 +28,10 @@
   The next step after cleaning the data is model building. First we initialise the weights with size same as number of features. Next,
   we take each row from the training data and get the output after multiplying with weights and passing into activation function.
   The activation function we are using here is <a href="https://en.wikipedia.org/wiki/Sigmoid_function">Sigmoid function</a>. Next we
-  calculate the error which is actual output minus obtained output <i>error = actual_output - obtained_output</i>. The formula for error
-  term is <i>error_term = error*sigmoid(obtained_output)</i>. Next we add the <i>error_term*input</i> to a variable <i>delta_of_w</i>. 
-  The <i>delta_of_w</i> is summed for all the input values and finally we update the acutal weights. The formula to update the 
-  actual weights is <i>original_weights += learn_rate*delta_of_w/n_records</i>, where learn_rate is hyper-parameter that controls how 
+  calculate the error which is actual output minus obtained output <b><i>error = actual_output - obtained_output</i></b>. The formula for error
+  term is <b><i>error_term = error*sigmoid(obtained_output)</i></b>. Next we add the <b><i>error_term*input</i></b> to a variable <b><i>delta_of_w</i></b>. 
+  The <b><i>delta_of_w</i></b> is summed for all the input values and finally we update the acutal weights. The formula to update the 
+  actual weights is <b><i>original_weights += learn_rate*delta_of_w/n_records</i></b>, where learn_rate is hyper-parameter that controls how 
   much we are adjusting the weights of our network. We repeat this process for many iterations to reach to the optimal value of
   weights that predict the output accurately. See the notebook for more conceptual clarity and step by step descriptions.
 </p>
