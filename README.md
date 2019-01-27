@@ -41,3 +41,9 @@
   accuracy obtained as 75%. That is really is great as we have used just one layer. The accuracy can be improved by adding more layers
   and tuning the hyperparameters.
 </p>
+<p>
+  Wondering how all the formulas came?? I have derivied them in the below image. In the below image in the final step while updating 
+  the weights, I have written it as <b><i>w_i = w_i + delta * x_i</i></b>. I have not added learning rate here. It can be done by
+  <b><i>w_i = w_i + learn_rate * delta * x_i</i></b><br />
+  <img src="https://github.com/SurajChinna/Building-a-Neural-Network-from-Scratch-1/blob/master/assets/img2.jpg" />
+</p>
